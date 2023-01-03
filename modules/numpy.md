@@ -6,7 +6,9 @@ NumPy is a library for scientific computing with Python. It provides support for
 
 To install NumPy, you can use the `pip` package management tool. Open a terminal and type the following command:
 
+```code
 pip install numpy
+```
 
 This will install NumPy and all of its dependencies.
 
@@ -14,13 +16,17 @@ This will install NumPy and all of its dependencies.
 
 To use NumPy, you first need to import it into your Python script. You can do this using the `import` statement, like this:
 
+```python
 import numpy as np
+```
 
 This will import the NumPy library and give it the alias `np`. You can then use the functions and data structures provided by NumPy by calling them using the `np` prefix, like this:
 
+```python
 a = np.array([1, 2, 3])  # create a NumPy array
 b = np.ones((3, 3))     # create a 3x3 matrix of ones
 c = np.dot(a, b)        # compute the dot product of a and b
+```
 
 NumPy also provides many other functions and data structures for scientific computing, such as linear algebra functions, random number generators, and statistical functions.
 
