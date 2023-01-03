@@ -1,7 +1,7 @@
 # NumPy
 
 - [about NumPy and how to use it](https://github.com/JakeAndTheRobot/python-tools/blob/main/modules/numpy/about-numpy.md)
-- [cheat sheet 1]()
+- [cheat sheet 1](https://github.com/JakeAndTheRobot/python-tools/blob/main/modules/numpy/cheat-sheet-1.py)
 
 # What is NumPy?
 
