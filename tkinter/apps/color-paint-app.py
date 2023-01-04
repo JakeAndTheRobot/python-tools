@@ -1,6 +1,8 @@
 # This program creates a window with a canvas widget and a button. 
-# The canvas widget allows the user to draw circles on it by dragging the mouse, and the button opens a color chooser dialog that allows the user to select a new color. 
-# The current color is used to fill the circles as they are drawn on the canvas. You can use the create_oval method of the canvas widget
+# The canvas widget allows the user to draw circles on it by dragging the mouse, 
+#  and the button opens a color chooser dialog that allows the user to select a new color. 
+# The current color is used to fill the circles as they are drawn on the canvas. 
+# You can use the create_oval method of the canvas widget
 
 import tkinter as tk
 import tkinter.colorchooser as colorchooser
