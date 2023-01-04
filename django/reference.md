@@ -42,5 +42,45 @@ def myview(request):
             form.save()
             return redirect('/success/')
     else:
-        form
+        form = MyForm()
+    return render(request, 'template.html', {'form': form})
+
+# create a view with a model form
+def myview(request):
+    if request.method == 'POST':
+        form = MyModelForm(request.POST)
+        if form.is_valid():
+            form.save()
+            return redirect('/success/')
+    else:
+        form = MyModelForm()
+    return render(request, 'template.html', {'form': form})
+
+# create a view with a list of objects
+def myview(request):
+    objects = MyModel.objects.all()
+    return render(request, 'template.html', {'objects': objects})
+```
+
+## Forms
+
+```python
+# create a form
+class MyForm(forms.Form):
+    field1 = forms.CharField(max_length=100)
+    field2 = forms.IntegerField()
+
+# create a model form
+class MyModelForm(forms.ModelForm):
+    class Meta:
+        model = MyModel
+        fields = ['field1', 'field2']
+
+# create a form for a model
+class MyModelForm(forms.ModelForm):
+    class Meta:
+        model = MyModel
+        fields = ['field1', 'field2']
+
+# process a form submission
 ```
