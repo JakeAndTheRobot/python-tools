@@ -82,3 +82,76 @@ df['column_name'].plot(kind='hist')
 # plot a box plot
 df.plot(kind='box')
 ```
+
+## Data Structures
+
+```python
+# create a Series from a list
+s = pd.Series([1, 3, 5, np.nan, 6, 8])
+
+# create a DataFrame from a NumPy array
+df = pd.DataFrame(np.random.randn(6, 4))
+
+# create a DataFrame from a dictionary
+df = pd.DataFrame({'A': 1.,
+                   'B': pd.Timestamp('20230101'),
+                   'C': pd.Series(1, index=list(range(4)), dtype='float32'),
+                   'D': np.array([3] * 4, dtype='int32'),
+                   'E': pd.Categorical(["test", "train", "test", "train"]),
+                   'F': 'foo'})
+```
+
+## DataFrame Operations
+
+```python
+# view the head of a DataFrame
+df.head()
+
+# view the tail of a DataFrame
+df.tail(3)
+
+# display the index, columns, and the underlying NumPy data
+df.index
+df.columns
+df.values
+
+# describe the statistics of a DataFrame
+df.describe()
+
+# transpose the DataFrame
+df.T
+
+# sort the DataFrame by a column
+df.sort_values(by='column_name')
+
+# slice the DataFrame by column
+df['A']
+
+# slice the DataFrame by row
+df[0:3]
+
+# slice the DataFrame by row and column
+df.iloc[0:3, 0:2]
+
+# filter the DataFrame by a column value
+df[df['A'] > 0]
+
+# group the DataFrame by a column and apply a function
+df.groupby('A').sum()
+```
+
+## Series Operations
+
+```python
+# slice the Series by index
+s[0:3]
+
+# slice the Series by label
+s['a':'c']
+
+# filter the Series by a value
+s[s > 0]
+
+# apply a function to the Series
+s.apply(lambda x: x * 2)
+```
