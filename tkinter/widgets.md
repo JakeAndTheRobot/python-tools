@@ -76,3 +76,23 @@ button.pack()
 window.mainloop()
 ```
 This program creates a window with an entry field and a button. When the button is clicked, it will call the on_button_click function, which will get the text from the entry field and print it to the console. You can use the get method of the entry field to get the current text, and you can use the insert method to insert text into the entry field.
+
+## Text
+#### example of how to use a Tkinter Text widget to display and edit large amounts of text:
+```python
+import tkinter as tk
+
+# Create the main window
+window = tk.Tk()
+
+# Create a Text widget and place it in the window
+text = tk.Text(window)
+text.pack()
+
+# Insert some text into the Text widget
+text.insert(tk.END, "Hello, Tkinter Text widget!")
+
+# Run the Tkinter event loop
+window.mainloop()
+```
+#### This program creates a window with a single Text widget that displays the text "Hello, Tkinter Text widget!". You can use the insert method of the Text widget to insert text at a specific location, and you can use the get method to get the current text. You can also customize the appearance and behavior of the Text widget using various options and settings, such as the font, color, and wrap mode.
