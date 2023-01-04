@@ -33,3 +33,20 @@ button.pack()
 window.mainloop()
 ```
 This program creates a window with a single button. When the button is clicked, it will call the on_button_click function, which will print the message "Button was clicked!".
+
+## Label
+### example of how to use a Tkinter label to display text in a window:
+```python
+import tkinter as tk
+
+# Create the main window
+window = tk.Tk()
+
+# Create a label and place it in the window
+label = tk.Label(window, text="Hello, Tkinter!")
+label.pack()
+
+# Run the Tkinter event loop
+window.mainloop()
+```
+This program creates a window with a single label that displays the text "Hello, Tkinter!". You can customize the appearance and behavior of the label using various options and settings, such as the font, color, and alignment.
