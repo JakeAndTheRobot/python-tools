@@ -264,7 +264,7 @@ window.mainloop()
 ```
 This program creates a window with a single scale widget. The scale allows the user to select a value from the range 0 to 100 by sliding the thumb. You can use the get method of the scale to get the current value, and you can use the set method to set the value. You can also customize the appearance and behavior of the scale using various options and settings, such as the resolution, length, and tick interval.
 
-## canvas
+## Canvas
 ### example of how to use a Tkinter Canvas widget to draw a line on the canvas:
 ```python
 import tkinter as tk
