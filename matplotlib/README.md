@@ -1,5 +1,6 @@
 # Matplotlib
 
+- [about matplotlib](https://github.com/JakeAndTheRobot/python-tools/tree/main/matplotlib)
 - [cheat sheet 1](https://github.com/JakeAndTheRobot/python-tools/tree/main/matplotlib)
 
 Matplotlib is a 2D plotting library for Python. It allows users to create a variety of static, animated, and interactive visualizations in Python. Matplotlib can be used to create line plots, scatter plots, bar plots, error bars, histograms, bar charts, pie charts, box plots, and many other types of visualizations.
