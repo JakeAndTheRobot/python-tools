@@ -50,3 +50,29 @@ label.pack()
 window.mainloop()
 ```
 This program creates a window with a single label that displays the text "Hello, Tkinter!". You can customize the appearance and behavior of the label using various options and settings, such as the font, color, and alignment.
+
+## Entry
+#### example of how to use a Tkinter entry field to get input from the user:
+```python
+import tkinter as tk
+
+def on_button_click():
+    # Get the text from the entry field
+    text = entry.get()
+    print("You entered:", text)
+
+# Create the main window
+window = tk.Tk()
+
+# Create an entry field and a button
+entry = tk.Entry(window)
+button = tk.Button(window, text="Get Text", command=on_button_click)
+
+# Place the widgets in the window
+entry.pack()
+button.pack()
+
+# Run the Tkinter event loop
+window.mainloop()
+```
+This program creates a window with an entry field and a button. When the button is clicked, it will call the on_button_click function, which will get the text from the entry field and print it to the console. You can use the get method of the entry field to get the current text, and you can use the insert method to insert text into the entry field.
