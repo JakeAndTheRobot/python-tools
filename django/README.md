@@ -1,7 +1,7 @@
 # Django
 
-- [cheat sheet](https://github.com/JakeAndTheRobot/python-tools/blob/main/django/cheat-sheet.py)
-- [reference sheet](https://github.com/JakeAndTheRobot/python-tools/blob/main/django/reference-sheet.md)
+- [code snippets](https://github.com/JakeAndTheRobot/python-tools/blob/main/django/cheat-sheet.py)
+- [reference](https://github.com/JakeAndTheRobot/python-tools/blob/main/django/reference.md)
 
 Django is a high-level Python web framework designed for rapid development of web applications. It takes care of much of the hassle of web development, and allows you to focus on writing your app without the need to reinvent the wheel. It is free and open source.
 
