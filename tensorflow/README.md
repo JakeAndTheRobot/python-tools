@@ -1,6 +1,7 @@
 # TensorFlow
 
 - [cheat sheet](https://github.com/JakeAndTheRobot/python-tools/blob/main/tensorflow/cheat-sheet.py)
+- [reference sheet](https://github.com/JakeAndTheRobot/python-tools/blob/main/tensorflow/reference.md)
 
 TensorFlow is an open-source machine learning framework developed by Google for training and deploying machine learning models. It is designed to be flexible, efficient, and portable, and it allows users to define and optimize machine learning models using a variety of high-level and low-level APIs.
 
