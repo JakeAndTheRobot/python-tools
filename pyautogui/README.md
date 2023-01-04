@@ -1,0 +1,3 @@
+# PyAutoGUI
+
+PyAutoGUI is a Python module for programmatically controlling the mouse and keyboard. It allows you to write scripts that can automate actions on your computer, such as moving the mouse, clicking, typing, and more. PyAutoGUI works on Windows, macOS, and Linux, and it can be used to control any application that runs on these operating systems. It is a cross-platform library, meaning that you can use the same script on all three operating systems without any changes. PyAutoGUI is designed to be easy to use and reliable, and it can be used to create powerful automation scripts with just a few lines of code.
