@@ -33,8 +33,3 @@ button.pack()
 window.mainloop()
 ```
 This program creates a window with a single button. When the button is clicked, it will call the on_button_click function, which will print the message "Button was clicked!".
-### This program creates a window with a single button. When the button is clicked, it will call the on_button_click function, which will print the message "Button was clicked!".
-#### This program creates a window with a single button. When the button is clicked, it will call the on_button_click function, which will print the message "Button was clicked!".
-##### This program creates a window with a single button. When the button is clicked, it will call the on_button_click function, which will print the message "Button was clicked!".
-###### This program creates a window with a single button. When the button is clicked, it will call the on_button_click function, which will print the message "Button was clicked!".
-
