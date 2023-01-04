@@ -1,5 +1,8 @@
 # pandas
 
+- [about pandas]()
+- [cheat sheet 1](https://github.com/JakeAndTheRobot/python-tools/tree/main/pandas)
+
 pandas is a powerful and easy-to-use open source data analysis and manipulation tool for Python.
 
 ## Key features
