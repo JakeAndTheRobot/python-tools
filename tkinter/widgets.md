@@ -2,7 +2,7 @@
 
 | Widget             | Description                                                                                     |
 |--------------------|-------------------------------------------------------------------------------------------------|
-| `Button`           | A button widget that can be clicked to trigger an action                                         |
+| [`Button`](#Button)           | A button widget that can be clicked to trigger an action                                         |
 | `Label`            | A widget that displays text or an image                                                          |
 | `Entry`            | A single-line text field for entering input                                                      |
 | `Text`             | A multi-line text field for entering and displaying large amounts of text                        |
